@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Auto Update Checker App</string>
+
+
+    <string name="downloading_start">Downloading started</string>
+    <string name="update_failed">Update failed</string>
+    <string name="restart">Restart</string>
+    <string name="new_app_ready">New app is ready</string>
+
+
 </resources>

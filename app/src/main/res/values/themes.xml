@@ -2,8 +2,24 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.AutoUpdateCheckerApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorAccent">@color/white</item>
+         <item name="colorPrimary">#4CAF50</item>
     </style>
+
+    <style name="CheckboxStyle" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <!-- Change the tint color for the checkbox -->
+        <item name="android:tint">@color/white</item>
+    </style>
+
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+
+
 
     <style name="Theme.AutoUpdateCheckerApp" parent="Base.Theme.AutoUpdateCheckerApp" />
 </resources>

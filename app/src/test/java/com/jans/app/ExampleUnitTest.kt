@@ -1,4 +1,4 @@
-package com.jans.auto.update.checker.app
+package com.jans.app
 
 import org.junit.Test
 
